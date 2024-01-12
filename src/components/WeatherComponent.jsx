@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import "../Styles/WeatherComponent.css";
+import React, { useState, useEffect } from "react";import "../Styles/WeatherComponent.css";
 
 const WeatherComponent = () => {
 	const [weatherData, setWeatherData] = useState(null);

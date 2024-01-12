@@ -1,5 +1,4 @@
-import React from "react";
-import "../Styles/Home.css"; // Importa il file CSS per lo stile
+import React from "react";import "../Styles/Home.css";
 
 const MeteoVittoria = () => {
 	return (
