@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import "../Styles/AltrePrevisioni.css";
+import React, { useState, useEffect } from "react";import "../Styles/AltrePrevisioni.css";
 
 const WeatherSearchComponent = () => {
 	const [location, setLocation] = useState("");
