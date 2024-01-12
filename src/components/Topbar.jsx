@@ -15,13 +15,16 @@ function Topbar() {
 					</Navbar.Brand>
 					<Nav className="me-auto">
 						<Nav.Link as={Link} to="/">
-							Home
+							Home |
 						</Nav.Link>
 						<Nav.Link as={Link} to="/current-conditions">
-							Condizioni Meteo Attuali
+							Condizioni Meteo Attuali |
 						</Nav.Link>
 						<Nav.Link as={Link} to="/forecasting">
-							Previsioni
+							Previsioni |
+						</Nav.Link>
+						<Nav.Link as={Link} to="/forecastingOtherCities">
+							Previsioni di altre città di cui non vi importa davvero |
 						</Nav.Link>
 					</Nav>
 				</Container>

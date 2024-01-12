@@ -5,6 +5,7 @@ import Topbar from "./components/Topbar";
 import WeatherComponent from "./components/WeatherComponent";
 import Home from "./components/Home";
 import Previsioni from "./components/Previsioni";
+import AltrePrevisioni from "./components/AltrePrevisioni";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/current-conditions" element={<WeatherComponent />} />
 					<Route path="/forecasting" element={<Previsioni />} />
+					<Route path="/forecastingOtherCities" element={<AltrePrevisioni />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
