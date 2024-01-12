@@ -1,0 +1,20 @@
+.meteo-container {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.cloud {
+	position: relative;
+	width: 100px;
+	height: 60px;
+	background: #ccc;
+	border-radius: 50px;
+	margin-top: 20px;
+	animation: cloudMove 2s infinite alternate; /* Aggiungi animazione CSS */
+}
+
+@keyframes cloudMove {
+	to {
+		transform: translateY(-5px);
+	}
+}

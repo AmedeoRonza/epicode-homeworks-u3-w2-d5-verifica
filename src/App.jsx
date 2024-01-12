@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Topbar from "./components/Topbar";
+import WeatherComponent from "./components/WeatherComponent";
+import Home from "./components/Home";
 
 function App() {
 	return (
@@ -9,10 +11,8 @@ function App() {
 			<BrowserRouter>
 				<Topbar />
 				<Routes>
-					{/* ...  <Route path="/" element={<Home />} />
-					<Route path="/current-conditions" element={<CurrentConditions />} />
-					<Route path="/forecast" element={<Forecast />} />
-					<Route path="*" element={<NotFound />} /> */}
+					<Route path="/" element={<Home />} />
+					<Route path="/current-conditions" element={<WeatherComponent />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
