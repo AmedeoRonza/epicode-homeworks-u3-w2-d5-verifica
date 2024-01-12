@@ -2,12 +2,16 @@ import React from "react";import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Topbar() {
+	const containerStyle = {
+		margin: 0,
+		marginLeft: "15px",
+	};
 	return (
 		<>
 			<Navbar bg="dark" variant="dark">
-				<Container>
+				<Container style={containerStyle}>
 					<Navbar.Brand as={Link} to="/">
-						Navbar
+						⛈🌪MeteoVittoria🌧🌤
 					</Navbar.Brand>
 					<Nav className="me-auto">
 						<Nav.Link as={Link} to="/">
